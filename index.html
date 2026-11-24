@@ -3,12 +3,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mezanur Rahman Sharukh — Statistician and Public Health Researcher</title>
-  <meta name="description" content="Research homepage of Mezanur Rahman Sharukh — statistician and public health ML researcher, author of the open-access textbook From First Line to First Paper (DOI: 10.5281/zenodo.24446563) and maintainer of sharukh-tutor on PyPI." />
-  <meta property="og:title" content="Mezanur Rahman Sharukh — Statistician and Public Health Researcher" />
-  <meta property="og:description" content="Biostatistics, complex health surveys, epidemiological modelling, and the free 860-page textbook From First Line to First Paper." />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; script-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <title>Mezanur Rahman Sharukh — Public Health and Machine Learning Researcher</title>
+  <meta name="description" content="Research homepage of Mezanur Rahman Sharukh — statistician and public health ML researcher, author of the free 860-page open-access book From First Line to First Paper (DOI: 10.5281/zenodo.24446563) and maintainer of sharukh-tutor on PyPI." />
+  <meta name="author" content="Mezanur Rahman Sharukh" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" href="https://sharukh01621.github.io/" />
+  <meta property="og:site_name" content="Mezanur Rahman Sharukh" />
+  <meta property="og:url" content="https://sharukh01621.github.io/" />
+  <meta property="og:title" content="Mezanur Rahman Sharukh — Public Health and Machine Learning Researcher" />
+  <meta property="og:description" content="Biostatistics, complex health surveys, epidemiological modelling, and the free 860-page book From First Line to First Paper." />
   <meta property="og:image" content="https://sharukh01621.github.io/assets/book-cover.png" />
+  <meta property="og:image:alt" content="Cover of From First Line to First Paper by Mezanur Rahman Sharukh" />
   <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Mezanur Rahman Sharukh — Public Health and Machine Learning Researcher" />
+  <meta name="twitter:description" content="Biostatistics, public health research, and the free 860-page book From First Line to First Paper (DOI: 10.5281/zenodo.24446563)." />
+  <meta name="twitter:image" content="https://sharukh01621.github.io/assets/book-cover.png" />
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,19 +29,72 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Mezanur Rahman Sharukh",
-    "jobTitle": "Statistician and Public Health Machine Learning Researcher",
-    "url": "https://sharukh01621.github.io/",
-    "sameAs": [
-      "https://orcid.org/0009-0006-8348-6123",
-      "https://github.com/sharukh01621",
-      "https://www.linkedin.com/in/mezanur-rahman-sharukh-16281a22b",
-      "https://pypi.org/project/sharukh-tutor/",
-      "https://doi.org/10.5281/zenodo.24446563"
-    ],
-    "alumniOf": "University of Rajshahi",
-    "email": "mailto:shahrukh01621@gmail.com"
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://sharukh01621.github.io/#person",
+        "name": "Mezanur Rahman Sharukh",
+        "alternateName": ["M. R. Sharukh", "Mezanur Sharukh"],
+        "jobTitle": "Public Health and Machine Learning Researcher",
+        "url": "https://sharukh01621.github.io/",
+        "image": "https://sharukh01621.github.io/assets/portrait.jpg",
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "University of Rajshahi"
+        },
+        "knowsAbout": [
+          "Biostatistics",
+          "Public Health",
+          "Epidemiological Modelling",
+          "Complex Survey Analysis",
+          "Applied Machine Learning",
+          "Responsible Clinical AI",
+          "PyTorch"
+        ],
+        "sameAs": [
+          "https://orcid.org/0009-0006-8348-6123",
+          "https://github.com/sharukh01621",
+          "https://www.linkedin.com/in/mezanur-rahman-sharukh-16281a22b",
+          "https://pypi.org/project/sharukh-tutor/",
+          "https://doi.org/10.5281/zenodo.24446563"
+        ],
+        "email": "mailto:shahrukh01621@gmail.com"
+      },
+      {
+        "@type": "Book",
+        "@id": "https://sharukh01621.github.io/first-line-to-first-paper/#book",
+        "name": "From First Line to First Paper: Mastering Python, Statistical Data Science, and Applied Deep Learning",
+        "author": { "@id": "https://sharukh01621.github.io/#person" },
+        "bookEdition": "1st Edition",
+        "datePublished": "2026",
+        "numberOfPages": 860,
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Open Scientific Edition / Zenodo"
+        },
+        "url": "https://sharukh01621.github.io/first-line-to-first-paper/",
+        "sameAs": "https://doi.org/10.5281/zenodo.24446563",
+        "image": "https://sharukh01621.github.io/assets/book-cover.png"
+      },
+      {
+        "@type": "SoftwareSourceCode",
+        "name": "sharukh-tutor",
+        "author": { "@id": "https://sharukh01621.github.io/#person" },
+        "programmingLanguage": "Python",
+        "license": "https://opensource.org/licenses/MIT",
+        "codeRepository": "https://github.com/sharukh01621/first-line-to-first-paper",
+        "url": "https://pypi.org/project/sharukh-tutor/"
+      },
+      {
+        "@type": "WebSite",
+        "name": "Mezanur Rahman Sharukh",
+        "url": "https://sharukh01621.github.io/",
+        "author": { "@id": "https://sharukh01621.github.io/#person" }
+      }
+    ]
   }
   </script>
 </head>
@@ -62,7 +127,7 @@
             My work connects classical statistical methodology with reproducible machine learning across environmental exposure assessment, maternal and child health, climate-sensitive infectious diseases, and calibrated clinical prediction. I also build open educational tooling and maintain the free 860-page textbook <em>From First Line to First Paper</em>.
           </p>
           <div class="hero-actions">
-            <a href="https://sharukh01621.github.io/first-line-to-first-paper/" class="btn btn-primary" target="_blank" rel="noopener">Read the free book</a>
+            <a href="https://sharukh01621.github.io/first-line-to-first-paper/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Read the free book</a>
             <a href="#research" class="btn btn-secondary">Ongoing research</a>
           </div>
         </div>
@@ -77,10 +142,10 @@
               <div>RSS e-Student member</div>
             </div>
             <div class="portrait-links">
-              <a href="https://orcid.org/0009-0006-8348-6123" target="_blank" rel="noopener">ORCID</a>
-              <a href="https://github.com/sharukh01621" target="_blank" rel="noopener">GitHub</a>
-              <a href="https://www.linkedin.com/in/mezanur-rahman-sharukh-16281a22b" target="_blank" rel="noopener">LinkedIn</a>
-              <a href="https://pypi.org/project/sharukh-tutor/" target="_blank" rel="noopener">PyPI</a>
+              <a href="https://orcid.org/0009-0006-8348-6123" target="_blank" rel="noopener noreferrer">ORCID</a>
+              <a href="https://github.com/sharukh01621" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://www.linkedin.com/in/mezanur-rahman-sharukh-16281a22b" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://pypi.org/project/sharukh-tutor/" target="_blank" rel="noopener noreferrer">PyPI</a>
               <a href="mailto:shahrukh01621@gmail.com">Email</a>
             </div>
           </div>
@@ -101,7 +166,7 @@
 
         <div class="section-body">
           <article class="monograph-panel">
-            <a class="book-cover-link" href="https://sharukh01621.github.io/first-line-to-first-paper/" target="_blank" rel="noopener">
+            <a class="book-cover-link" href="https://sharukh01621.github.io/first-line-to-first-paper/" target="_blank" rel="noopener noreferrer">
               <img src="assets/book-cover.png" alt="Cover of From First Line to First Paper by Mezanur Rahman Sharukh" class="book-cover" width="224" height="334" />
             </a>
 
@@ -138,13 +203,13 @@
               </div>
 
               <div class="monograph-actions">
-                <a href="https://sharukh01621.github.io/first-line-to-first-paper/" class="btn btn-primary" target="_blank" rel="noopener">Read web book</a>
+                <a href="https://sharukh01621.github.io/first-line-to-first-paper/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Read web book</a>
                 <div class="inline-links">
-                  <a href="https://github.com/sharukh01621/first-line-to-first-paper/releases/download/v1.0.2/From-First-Line-to-First-Paper.pdf" target="_blank" rel="noopener">PDF (12.5 MB)</a>
-                  <a href="https://github.com/sharukh01621/first-line-to-first-paper/releases/download/v1.0.2/From-First-Line-to-First-Paper.epub" target="_blank" rel="noopener">EPUB 3</a>
-                  <a href="https://colab.research.google.com/github/sharukh01621/first-line-to-first-paper/blob/main/colab_drive/00_START_HERE.ipynb" target="_blank" rel="noopener">Colab hub</a>
-                  <a href="https://drive.google.com/drive/folders/1pHBCVND-bRsPV4FarRPqOmivYkVmRFBF?usp=drive_link" target="_blank" rel="noopener">Google Drive</a>
-                  <a href="https://pypi.org/project/sharukh-tutor/" target="_blank" rel="noopener">PyPI</a>
+                  <a href="https://github.com/sharukh01621/first-line-to-first-paper/releases/download/v1.0.2/From-First-Line-to-First-Paper.pdf" target="_blank" rel="noopener noreferrer">PDF (12.5 MB)</a>
+                  <a href="https://github.com/sharukh01621/first-line-to-first-paper/releases/download/v1.0.2/From-First-Line-to-First-Paper.epub" target="_blank" rel="noopener noreferrer">EPUB 3</a>
+                  <a href="https://colab.research.google.com/github/sharukh01621/first-line-to-first-paper/blob/main/colab_drive/00_START_HERE.ipynb" target="_blank" rel="noopener noreferrer">Colab hub</a>
+                  <a href="https://drive.google.com/drive/folders/1pHBCVND-bRsPV4FarRPqOmivYkVmRFBF?usp=drive_link" target="_blank" rel="noopener noreferrer">Google Drive</a>
+                  <a href="https://pypi.org/project/sharukh-tutor/" target="_blank" rel="noopener noreferrer">PyPI</a>
                   <button id="copy-bibtex" class="text-action" type="button">Copy BibTeX</button>
                 </div>
               </div>
@@ -250,9 +315,9 @@
                 <div class="pub-type">Open-access textbook</div>
                 <p class="pub-cite"><strong>Sharukh, M. R.</strong> (2026). <em>From First Line to First Paper: Mastering Python, Statistical Data Science, and Applied Deep Learning</em> (1st ed., 860 pp.). Open Scientific Edition / Zenodo.</p>
                 <div class="pub-links">
-                  <a href="https://doi.org/10.5281/zenodo.24446563" target="_blank" rel="noopener">DOI 10.5281/zenodo.24446563</a>
-                  <a href="https://sharukh01621.github.io/first-line-to-first-paper/" target="_blank" rel="noopener">Web book</a>
-                  <a href="https://pypi.org/project/sharukh-tutor/" target="_blank" rel="noopener">sharukh-tutor on PyPI</a>
+                  <a href="https://doi.org/10.5281/zenodo.24446563" target="_blank" rel="noopener noreferrer">DOI 10.5281/zenodo.24446563</a>
+                  <a href="https://sharukh01621.github.io/first-line-to-first-paper/" target="_blank" rel="noopener noreferrer">Web book</a>
+                  <a href="https://pypi.org/project/sharukh-tutor/" target="_blank" rel="noopener noreferrer">sharukh-tutor on PyPI</a>
                 </div>
               </div>
             </li>
@@ -371,11 +436,11 @@
         </div>
       </div>
       <div class="footer-links">
-        <a href="https://orcid.org/0009-0006-8348-6123" target="_blank" rel="noopener">ORCID</a>
-        <a href="https://github.com/sharukh01621" target="_blank" rel="noopener">GitHub</a>
-        <a href="https://www.linkedin.com/in/mezanur-rahman-sharukh-16281a22b" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="https://pypi.org/project/sharukh-tutor/" target="_blank" rel="noopener">PyPI</a>
-        <a href="https://doi.org/10.5281/zenodo.24446563" target="_blank" rel="noopener">Zenodo DOI</a>
+        <a href="https://orcid.org/0009-0006-8348-6123" target="_blank" rel="noopener noreferrer">ORCID</a>
+        <a href="https://github.com/sharukh01621" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/mezanur-rahman-sharukh-16281a22b" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://pypi.org/project/sharukh-tutor/" target="_blank" rel="noopener noreferrer">PyPI</a>
+        <a href="https://doi.org/10.5281/zenodo.24446563" target="_blank" rel="noopener noreferrer">Zenodo DOI</a>
       </div>
     </div>
   </footer>

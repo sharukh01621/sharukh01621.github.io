@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sharukh01621.github.io/sitemap.xml
+Sitemap: https://sharukh01621.github.io/first-line-to-first-paper/sitemap.xml
